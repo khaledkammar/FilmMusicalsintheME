@@ -1,0 +1,984 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/khaledkammar/Desktop/Kefaya Nourak meimei.mid</data_set_id>
+		<feature>
+			<name>Basic Pitch Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.07E-3</v>
+			<v>3.106E-3</v>
+			<v>0E0</v>
+			<v>5.176E-3</v>
+			<v>0E0</v>
+			<v>7.246E-3</v>
+			<v>0E0</v>
+			<v>6.211E-3</v>
+			<v>8.282E-3</v>
+			<v>0E0</v>
+			<v>5.176E-3</v>
+			<v>0E0</v>
+			<v>2.174E-2</v>
+			<v>1.967E-2</v>
+			<v>0E0</v>
+			<v>2.795E-2</v>
+			<v>6.211E-3</v>
+			<v>6.832E-2</v>
+			<v>3.209E-2</v>
+			<v>1.004E-1</v>
+			<v>1.097E-1</v>
+			<v>4.555E-2</v>
+			<v>1.346E-1</v>
+			<v>2.692E-2</v>
+			<v>1.605E-1</v>
+			<v>6.108E-2</v>
+			<v>0E0</v>
+			<v>2.484E-2</v>
+			<v>0E0</v>
+			<v>1.863E-2</v>
+			<v>5.176E-3</v>
+			<v>2.588E-2</v>
+			<v>1.035E-2</v>
+			<v>4.141E-3</v>
+			<v>8.282E-3</v>
+			<v>0E0</v>
+			<v>1.553E-2</v>
+			<v>2.07E-3</v>
+			<v>0E0</v>
+			<v>2.07E-3</v>
+			<v>0E0</v>
+			<v>2.07E-3</v>
+			<v>0E0</v>
+			<v>1.242E-2</v>
+			<v>2.07E-3</v>
+			<v>0E0</v>
+			<v>2.07E-3</v>
+			<v>0E0</v>
+			<v>1.242E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Histogram</name>
+			<v>2.122E-1</v>
+			<v>8.592E-2</v>
+			<v>0E0</v>
+			<v>6.004E-2</v>
+			<v>6.211E-3</v>
+			<v>9.627E-2</v>
+			<v>3.727E-2</v>
+			<v>1.449E-1</v>
+			<v>1.304E-1</v>
+			<v>4.969E-2</v>
+			<v>1.501E-1</v>
+			<v>2.692E-2</v>
+		</feature>
+		<feature>
+			<name>Folded Fifths Pitch Class Histogram</name>
+			<v>6.004E-2</v>
+			<v>1.501E-1</v>
+			<v>9.627E-2</v>
+			<v>2.122E-1</v>
+			<v>1.449E-1</v>
+			<v>0E0</v>
+			<v>4.969E-2</v>
+			<v>6.211E-3</v>
+			<v>2.692E-2</v>
+			<v>3.727E-2</v>
+			<v>8.592E-2</v>
+			<v>1.304E-1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>3.5E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>1.1E1</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitch Classes</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>4.8E1</v>
+		</feature>
+		<feature>
+			<name>Importance of Bass Register</name>
+			<v>3.209E-2</v>
+		</feature>
+		<feature>
+			<name>Importance of Middle Register</name>
+			<v>8.447E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of High Register</name>
+			<v>1.232E-1</v>
+		</feature>
+		<feature>
+			<name>Dominant Spread</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>6.666E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch Class</name>
+			<v>5.876E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>6.9E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>9E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Pitch</name>
+			<v>1.605E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Pitch Class</name>
+			<v>2.122E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Prevalence of Top Pitches</name>
+			<v>8.387E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Prevalence of Top Pitch Classes</name>
+			<v>7.073E-1</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitches</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitch Classes</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>6.925E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Variability</name>
+			<v>2.905E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Variability After Folding</name>
+			<v>3.67E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Skewness</name>
+			<v>1.884E-2</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Skewness</name>
+			<v>-1.283E-1</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Skewness After Folding</name>
+			<v>1.427E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Kurtosis</name>
+			<v>9.381E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Kurtosis</name>
+			<v>5.09E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Kurtosis After Folding</name>
+			<v>4.942E0</v>
+		</feature>
+		<feature>
+			<name>Melodic Interval Histogram</name>
+			<v>3.34E-1</v>
+			<v>1.598E-1</v>
+			<v>2.873E-1</v>
+			<v>7.365E-2</v>
+			<v>5.705E-2</v>
+			<v>4.046E-2</v>
+			<v>1.037E-2</v>
+			<v>1.452E-2</v>
+			<v>1.037E-3</v>
+			<v>4.149E-3</v>
+			<v>0E0</v>
+			<v>6.224E-3</v>
+			<v>5.187E-3</v>
+			<v>3.112E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.037E-3</v>
+			<v>1.037E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.037E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Mean Melodic Interval</name>
+			<v>1.83E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Melodic Intervals</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Most Prevalent Melodic Intervals</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Melodic Interval</name>
+			<v>3.34E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Prevalence of Most Common Melodic Intervals</name>
+			<v>8.602E-1</v>
+		</feature>
+		<feature>
+			<name>Amount of Arpeggiation</name>
+			<v>4.907E-1</v>
+		</feature>
+		<feature>
+			<name>Repeated Notes</name>
+			<v>3.34E-1</v>
+		</feature>
+		<feature>
+			<name>Chromatic Motion</name>
+			<v>1.598E-1</v>
+		</feature>
+		<feature>
+			<name>Stepwise Motion</name>
+			<v>4.471E-1</v>
+		</feature>
+		<feature>
+			<name>Melodic Thirds</name>
+			<v>1.307E-1</v>
+		</feature>
+		<feature>
+			<name>Melodic Perfect Fourths</name>
+			<v>4.046E-2</v>
+		</feature>
+		<feature>
+			<name>Melodic Tritones</name>
+			<v>1.037E-2</v>
+		</feature>
+		<feature>
+			<name>Melodic Perfect Fifths</name>
+			<v>1.452E-2</v>
+		</feature>
+		<feature>
+			<name>Melodic Sixths</name>
+			<v>5.187E-3</v>
+		</feature>
+		<feature>
+			<name>Melodic Sevenths</name>
+			<v>6.224E-3</v>
+		</feature>
+		<feature>
+			<name>Melodic Octaves</name>
+			<v>5.187E-3</v>
+		</feature>
+		<feature>
+			<name>Melodic Large Intervals</name>
+			<v>6.224E-3</v>
+		</feature>
+		<feature>
+			<name>Minor Major Melodic Third Ratio</name>
+			<v>1.291E0</v>
+		</feature>
+		<feature>
+			<name>Melodic Embellishments</name>
+			<v>2.07E-3</v>
+		</feature>
+		<feature>
+			<name>Direction of Melodic Motion</name>
+			<v>4.408E-1</v>
+		</feature>
+		<feature>
+			<name>Average Length of Melodic Arcs</name>
+			<v>1.845E0</v>
+		</feature>
+		<feature>
+			<name>Average Interval Spanned by Melodic Arcs</name>
+			<v>5.043E0</v>
+		</feature>
+		<feature>
+			<name>Melodic Pitch Variety</name>
+			<v>3.323E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.591E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.064E-1</v>
+			<v>2.874E-2</v>
+			<v>2.874E-2</v>
+			<v>2.874E-2</v>
+			<v>2.874E-2</v>
+			<v>6.527E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>6.527E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.591E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.064E-1</v>
+			<v>2.874E-2</v>
+			<v>2.874E-2</v>
+			<v>2.874E-2</v>
+			<v>2.874E-2</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>9.66E2</v>
+		</feature>
+		<feature>
+			<name>Rhythmic Value Histogram</name>
+			<v>3.043E-1</v>
+			<v>1.294E-1</v>
+			<v>8.385E-2</v>
+			<v>7.039E-2</v>
+			<v>2.867E-1</v>
+			<v>3.106E-2</v>
+			<v>8.282E-2</v>
+			<v>1.139E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Range of Rhythmic Values</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Number of Different Rhythmic Values Present</name>
+			<v>8E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Rhythmic Values Present</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Shortest Rhythmic Value</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Longest Rhythmic Value</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Rhythmic Value</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Rhythmic Value</name>
+			<v>3.043E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Prevalence of Most Common Rhythmic Values</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Difference Between Most Common Rhythmic Values</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Rhythmic Variability - Tempo Standardized</name>
+			<v>1.907E-2</v>
+		</feature>
+		<feature>
+			<name>Rhythmic Looseness - Tempo Standardized</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Polyrhythms - Tempo Standardized</name>
+			<v>3E-1</v>
+		</feature>
+		<feature>
+			<name>Initial Tempo</name>
+			<v>1.4E2</v>
+		</feature>
+		<feature>
+			<name>Mean Tempo</name>
+			<v>1.358E2</v>
+		</feature>
+		<feature>
+			<name>Tempo Variability</name>
+			<v>1.38E1</v>
+		</feature>
+		<feature>
+			<name>Duration in Seconds</name>
+			<v>3.551E2</v>
+		</feature>
+		<feature>
+			<name>Note Density</name>
+			<v>2.72E0</v>
+		</feature>
+		<feature>
+			<name>Note Density Variability</name>
+			<v>2.883E0</v>
+		</feature>
+		<feature>
+			<name>Average Time Between Attacks</name>
+			<v>3.643E-1</v>
+		</feature>
+		<feature>
+			<name>Average Time Between Attacks for Each Voice</name>
+			<v>6.267E-1</v>
+		</feature>
+		<feature>
+			<name>Variability of Time Between Attacks</name>
+			<v>3.274E-1</v>
+		</feature>
+		<feature>
+			<name>Average Variability of Time Between Attacks for Each Voice</name>
+			<v>2.162E0</v>
+		</feature>
+		<feature>
+			<name>Minimum Note Duration</name>
+			<v>3.175E-2</v>
+		</feature>
+		<feature>
+			<name>Maximum Note Duration</name>
+			<v>1.735E0</v>
+		</feature>
+		<feature>
+			<name>Average Note Duration</name>
+			<v>3.068E-1</v>
+		</feature>
+		<feature>
+			<name>Variability of Note Durations</name>
+			<v>2.855E-1</v>
+		</feature>
+		<feature>
+			<name>Beat Histogram</name>
+			<v>2.939E-2</v>
+			<v>0E0</v>
+			<v>3.694E-2</v>
+			<v>2.968E-2</v>
+			<v>1.448E-4</v>
+			<v>1.01E-1</v>
+			<v>1.448E-4</v>
+			<v>2.997E-2</v>
+			<v>1.448E-4</v>
+			<v>3.65E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.055E-2</v>
+			<v>0E0</v>
+			<v>6.118E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.055E-2</v>
+			<v>0E0</v>
+			<v>1.448E-4</v>
+			<v>3.788E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.084E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.009E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.084E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.889E-2</v>
+			<v>0E0</v>
+			<v>1.448E-4</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.098E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>6.234E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.448E-4</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.113E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.904E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.448E-4</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.127E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.066E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.448E-4</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.448E-4</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.142E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>4.085E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strongest Rhythmic Pulse</name>
+			<v>1.34E2</v>
+		</feature>
+		<feature>
+			<name>Harmonicity of Two Strongest Rhythmic Pulses</name>
+			<v>2.978E0</v>
+		</feature>
+		<feature>
+			<name>Combined Strength of Two Strongest Rhythmic Pulses</name>
+			<v>2.076E-1</v>
+		</feature>
+		<feature>
+			<name>Rhythmic Variability</name>
+			<v>1.808E-2</v>
+		</feature>
+		<feature>
+			<name>Dynamic Range</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variation of Dynamics</name>
+			<v>1.152E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
